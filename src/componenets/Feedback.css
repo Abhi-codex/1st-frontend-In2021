@@ -1,0 +1,330 @@
+
+.how-much-you-like{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 20px;
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    margin-top: 25px;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 2px solid rgb(159,40,41);
+    
+    
+}
+.rateus{
+    color: rgb(159,40,41);
+    text-align: center;
+    margin-top:0;
+}
+.head-feed{
+    text-align: center;
+}
+.rateall{
+    text-align: center;
+    
+
+}
+.rate{
+    width: 70px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 100%;
+    border: 2px solid white;
+    overflow: hidden;
+    padding: 0;
+    margin: 5px;
+    transition: 0.5s ease;
+    
+}
+.img-btn{
+    outline: 0;
+    background: transparent;
+    border: 0;
+    
+}
+      /* -----on click emoji -------- */
+.changeangry{
+    background-color: red;
+}
+.changesad{
+    background-color: rgba(255, 0, 0, 0.63);
+}
+.changenormal{
+    background-color: yellow;
+}
+.changehappy{
+    background-color: green;
+}
+/* on click finish------------- */
+
+.feedform{
+    width: 700px;
+    height: fit-content;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    margin-left: calc(50% - 350px);
+    margin-top: 50px;
+    border: 2px dashed rgb(159,40,41);
+    border-radius: 30px;
+}
+
+
+.feed-head{
+    color: rgb(159,40,41);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+
+.type{
+    color: rgb(159,40,41);
+    text-align: center;
+    font-size: 25px;
+}
+
+.radio-label{
+    color: white;
+    font-size: 20px;
+}
+.radio{
+    background-color: rgb(159,40,41);
+}
+
+
+.switch{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.write-feed{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    border: 2px solid rgb(159,40,41);
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: calc(50% - 252px);
+}
+.your-feed{
+    color: rgb(159,40,41);
+    margin-top: 5px;
+    font-size: 25px;
+    
+    
+}
+.write-feed textarea{
+    flex: 1;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    height: 300px;
+    width: 480px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    resize: none;
+    margin: 10px;
+}
+.nameid{
+    display: flex;
+    flex-direction: column;
+     color:rgb(159,40,41);
+     font-size: large;
+     text-align: center;
+     margin-top: 20px;
+     justify-content: center;
+}
+.nameid input{
+    width: 200px;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    text-align: center;
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+::placeholder{
+    color: white;
+}
+.nameid h3{
+    font-size: 25px;
+     margin: 9px;
+    
+}
+.submit{
+    width: 150px;
+    height: 45px;
+    margin-top: 0;
+    background-color: rgb(159,40,41);
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    
+}
+.submit:hover{
+    background-color: white;
+    color: rgb(159,40,41);
+}
+.paddingall{
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+/*midea---------------------------------------------------start----------------------------------------------------------------------------- quary*/
+
+@media (max-width:715px){
+    /* nav bar -----------------------------------------------------------all */
+       li{
+           display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+       }
+       #menu{
+           display: block;
+       }
+       .nav-non-resp{
+           display: none;
+           
+       }
+    /* nav bar --------------------------------------------------------------finish */
+       .feedform{
+           width: 600px;
+           margin-left: calc(50% - 300px);
+       }
+       .how-much-you-like{
+           width: 600px;
+       }
+            
+   }
+ /*midea---------------------------------------------------start----------------------------------------------------------------------------- quary*/
+
+@media (max-width:715px){
+       .feedform{
+           width: 600px;
+           margin-left: calc(50% - 300px);
+       }
+       .how-much-you-like{
+           width: 600px;
+       }
+    }
+            
+   
+   @media (max-width:650px){
+       .feedform{
+           width: 500px;
+           margin-left: calc(50% - 250px);
+       }
+       .how-much-you-like{
+           width: 500px;
+       }
+       .write-feed{
+           width: 400px;
+           margin-left: calc(50% - 202px);
+       }
+       .write-feed textarea{
+           width: 380px;
+       }
+   }
+   @media (max-width:531px){
+       .feedform{
+           width: 450px;
+           margin-left: calc(50% - 225px);
+       }
+       .how-much-you-like{
+           width: 450px;
+       }
+       .write-feed{
+           width: 400px;
+           margin-left: calc(50% - 202px);
+       }
+       .write-feed textarea{
+           width: 380px;
+       }
+       .radio-label{
+       color: white;
+       font-size: 15px;
+   }
+}
+   @media (max-width:482px){
+       .feedform{
+           width: 380px;
+           margin-left: calc(50% - 190px);
+       }
+       .how-much-you-like{
+           width: 380px;
+       }
+       .write-feed{
+           width: 330px;
+           margin-left: calc(50% - 167px);
+       }
+       .write-feed textarea{
+           width: 310px;
+           height: fit-content;
+       }
+       .rate{
+           width: 65px;
+       }
+   }
+   @media (max-width:400px){
+       .feedform{
+           width: 330px;
+           margin-left: calc(50% - 165px);
+       }
+       .rateall{
+           padding-bottom: 20px;
+       }
+       .how-much-you-like{
+           width: 330px;
+           height: fit-content;
+       }
+       .write-feed{
+           width: 300px;
+           margin-left: calc(50% - 152px);
+       }
+       .write-feed textarea{
+           width: 280px;
+           height: fit-content;
+       }
+       .rate{
+           width: 55px;
+       }
+   }
+   @media (max-width:341px){
+       .feedform{
+           width: 300px;
+           margin-left: calc(50% - 150px);
+       }
+       .how-much-you-like{
+           width: 300px;
+       }
+       .write-feed{
+           width: 280px;
+           margin-left: calc(50% - 142px);
+           
+       }
+       .write-feed textarea {
+       width: 260px;
+       height: fit-content;
+   }
+   }

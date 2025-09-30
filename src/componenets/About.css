@@ -1,0 +1,229 @@
+.logowith-details{
+    display: flex;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 20px;
+ }
+.logowith-details img{
+    width: 280.25px;
+    height:55.875px;
+    margin: auto;
+    
+}
+.about{
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    padding: 20px;
+    border: 2px dashed rgb(159,40,41);
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;    
+    margin-top: 0;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card1 ,.card2 ,.card3{
+    width: 300px;
+    height: 450px;
+    background-image: linear-gradient(to right ,white 50% ,rgb(159,40,41) 50%);
+    border-radius: 50px;
+}
+.upper{
+    background-color: rgb(159,40,41);
+    width: 300px;
+    height: 200px;
+    /* border-top-left-radius: 50px; */
+    border-end-start-radius: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+
+}
+.lower{
+    background-color: white;
+    height: 250px;
+    color: rgb(159,40,41);
+    
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0
+}
+.picdiv{
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+  
+    
+}
+.pic{
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.logolinks{
+    display:block;
+    flex-direction: column;
+    width: 39px;
+    row-gap: 100px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: 45px;
+    padding: 10px;    
+    
+}
+.insta{
+    background-image: linear-gradient(rgb(159,40,41));
+    transition: 1s ;
+}
+.insta:hover{
+    border-radius: 7px;
+    background-image: linear-gradient(to top right ,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+}
+
+.linkdin{
+    background-image: linear-gradient(rgb(159,40,41));
+    transition: 1s ;
+    
+}
+.linkdin:hover{
+    border-radius: 7px;
+    background-image:  linear-gradient(#0A66C2,#0A66C2);
+}
+.git{
+    background-image: linear-gradient(rgb(159,40,41));
+    transition: 1s ;
+    
+}
+.git:hover{
+    border-radius: 7px;
+    background-image:  linear-gradient(#333,#333);
+}
+.mail{
+    background-image: linear-gradient(rgb(159,40,41));
+    transition: 1s ;
+    
+}
+.mail:hover{
+    border-radius: 7px;
+    background-image:  linear-gradient(rgb(0,125,181),rgb(0,125,181));
+}
+.about{
+    color:rgb(159,40,41);
+    
+}
+.lower p{
+    padding: 0;
+    margin:0;
+}
+.lower a{
+    font-size: 15px;
+    color: rgb(159,40,41);
+    margin: 0;
+    padding: 0;
+}
+
+.picdiv b{
+    color: white;
+    font-size: 17px;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+    
+/*midea---------------------------------------------------start----------------------------------------------------------------------------- quary*/
+
+
+
+@media (max-width:715px){
+ /* nav bar -----------------------------------------------------------all */
+    li{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+    }
+    #menu{
+        display: block;
+    }
+    .nav-non-resp{
+        display: none;
+        
+    }
+ /* nav bar --------------------------------------------------------------finish */
+    }
+    @media (max-width:470px){
+  .logowith-details img{
+     width: 224.2px;
+     height:44.7px;
+     margin: auto;
+}
+.about{
+    width: 350px;
+    padding: auto;
+}
+    }
+    @media (max-width:470px){
+
+        .logowith-details img{
+     width: 224.2px;
+     height:44.7px;
+     margin: auto;
+}
+.about{
+    width: 300px;
+    padding: auto;
+}
+    }
+    @media (max-width:370px){
+
+.logowith-details img{
+width: 224.2px;
+height:44.7px;
+margin: auto;
+}
+.about{
+width: 255px;
+padding: auto;
+font-size: 15px;
+}
+}
+
+ 
+    
+
+   
+ 
+    
+
+      
+    
+
+
+
+
+
+/*midea-------------------------------end------------------------------------------------------------------------------------------------------------- quary*/

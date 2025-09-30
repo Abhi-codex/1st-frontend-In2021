@@ -1,0 +1,295 @@
+       body{
+            background: rgb(1, 2, 38);
+            
+        }
+      .moviecard{
+        width: 800px;
+        display: flex;
+        height: 500px;
+        background-color: rgb(159, 40, 41);
+        margin: auto;
+        /* margin-top: calc(25% - 250px); */
+        border-radius: 10px;
+        margin-top: 100px;
+    
+      }
+      .movieimage{
+        width: 400px;
+        height: 225px;
+        /* background-color: black; */
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        border: 4px solid rgb(255, 255, 255,0.2);
+        margin-right: 2px;
+        
+        
+    }
+    .left{
+        width: 440px;
+        background-color: rgb(159, 40, 41);
+        overflow: hidden;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .right{
+        width: 360px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-bottom-left-radius: 10%;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-left: 2px dashed white;
+        
+    }
+    .btns{
+        display: flex;
+        /* background-color: blue; */
+        margin-left: calc(50% - 110px);
+        margin-top: 50px;
+        height: 25px;
+        row-gap: 5px;
+        column-gap: 20px;
+        height: fit-content;
+       
+
+    }
+    .btnall{
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        transition: 0.5s;
+        /* background-color: white; */
+        font-weight: 800;
+        background-color: transparent;
+        border-top: dashed 2px white;
+    border-bottom: black dashed 2px;
+    outline: 0;
+    }
+    .btnall:hover{
+        transform: scale(1.2);
+        background-color: rgba(255, 255, 255, 0.2);
+        border-top: dashed 2px black;
+        border-bottom: white dashed 2px;
+        border-left: white solid 2px;
+        border-right: white solid 2px;
+    }
+    .logo1{
+        width: 280.25px;
+    height:55.875px;
+    background-color: rgba(255, 255, 255, 0.2);
+    
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    }
+    .logovid{
+        display: flex;
+        justify-content: center;
+    }
+    .name{
+        margin-left: 40px;
+        font-size: 30px;
+        /* text-align: right; */
+        color: rgb(159, 40, 41);
+         
+
+    }
+    .responsive{
+         justify-content: center;
+        display:none;
+        background-color: rgba(255, 255, 255, 0.2);
+       
+    }
+    .resp{
+        text-align: center;
+        /* margin-left: 40px; */
+        font-size: 30px;
+        /* text-align: right; */
+        color: rgba(159, 40, 42);
+        
+
+    }
+    
+ @media (max-width:881px) {
+    .right{
+        width: 260px;
+    }
+    .moviecard{
+        width: 700px;
+    }
+ }
+    
+ @media (max-width:768px) {
+    .right {
+    display: none;
+        
+    }
+    .left{
+        width: 450px;
+    }
+    .moviecard{
+        width: 450px;
+        height: fit-content;
+        margin-top: 25px;
+    }
+    .responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 440px;
+        margin: auto;
+        border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+        
+     
+        margin-top: 30px;
+        height: fit-content;
+        padding-top: 20px;
+        border-radius: 20px;
+        
+    }
+    .btns{
+        margin-top: 10px;
+    }
+    .btnall{
+        background-color: transparent;
+        border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+    outline: 0;
+    }
+    .resp{
+        margin-right: 10px;
+    }
+    .logovid{
+        justify-content: center;
+    }
+    
+    .logo1{
+        width: 196.175px;
+    height:39.1125px;
+    
+    margin-top: 5px;
+    border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+    }
+ }
+ @media (max-width:481px) {
+    
+    .left{
+        width: 350px;
+    }
+    .moviecard{
+        width: 350px;
+        height: fit-content;
+    }
+    .responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 340px;
+        margin: auto;
+        border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+        
+     
+        margin-top: 30px;
+        height: fit-content;
+        padding-top: 20px;
+        border-radius: 20px;
+        
+    }
+    .btns{
+        margin-top: 10px;
+    }
+    .btnall{
+        background-color: transparent;
+        border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+    outline: 0;
+    }
+    .resp{
+        margin-right: 10px;
+    }
+    .logo1{
+        width: 196.175px;
+    height:39.1125px;
+    /* margin-left: calc(50% - 108.0875px); */
+    margin-top: 5px;
+    border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+    }
+    .movieimage{
+        width: 300px;
+        height: 168.75px;
+        /* background-color: black; */
+        margin-top: 20px;
+       
+        display: flex;
+        justify-content: center;
+        border: 4px solid rgb(255, 255, 255,0.2);
+     
+ }
+}
+ @media (max-width:360px) {
+    
+    .left{
+        width: 300px;
+    }
+    .moviecard{
+        width: 300px;
+        height: fit-content;
+        margin-top: 5px;
+      
+    }
+    .responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+        margin: auto;
+        border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+        
+     
+        margin-top: 30px;
+        height: fit-content;
+        padding-top: 20px;
+        border-radius: 20px;
+        
+    }
+    .btns{
+        margin-top: 10px;
+    }
+    .btnall{
+        background-color: transparent;
+        border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+    outline: 0;
+    }
+    .resp{
+        margin-right: 10px;
+    }
+    .logo1{
+        width: 196.175px;
+    height:39.1125px;
+    /* margin-left: calc(50% - 108.0875px); */
+    margin-top: 5px;
+    border-top: dashed 1px white;
+    border-bottom: black dashed 1px;
+    }
+    .movieimage{
+        width: 304px;
+        height: 171px;
+        /* background-color: black; */
+        
+       
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgb(255, 255, 255,0.2);
+       margin-left: calc(50% - 152px);
+     
+ }  
+ }

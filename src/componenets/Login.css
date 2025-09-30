@@ -1,0 +1,176 @@
+
+
+    .logo-image-login{
+        width: 300px;
+        margin-top: 100px;
+    }
+    
+    
+    .all-login{
+        justify-content: space-around;
+        text-align: center;        
+       margin-top:50px ;
+        display: flex;
+        flex-wrap: wrap;
+    }     
+    .reg-login{
+
+        height: 300px;
+        justify-content: space-around;
+        width: fit-content;
+        margin:0;
+        text-align: center;
+        object-position: center;
+        align-items: center;
+        border-radius: 100%;
+      
+      
+
+    }
+    .footer-login{
+        justify-content: center;
+        height: 570px;
+        width: 350px;
+        margin:10px;
+        background-color:rgb(13,6,32);
+        border: rgb(159,40,41) dashed;
+        border-radius: 10px; 
+        text-align: center;
+        
+        
+        
+    }
+    .form-loginpage {
+        /* padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-top: 0px;
+        margin: 10px; */
+      
+        font-size: x-large;
+        color:white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 570px;
+        width: 350px;
+           
+    }
+    .btn-login{
+        width: 150px;
+        height: 50px;
+        background-color:rgb(159,40,41);
+        font-size: 40px;
+        text-align: center;
+        padding: 0px;
+        border-radius: 10px;
+       transition: 0.5s;
+       cursor: pointer;
+       margin-top: 90px;
+        
+    }
+    .btn-login:hover{
+        background-color: rgba(159, 40, 42, 0.75);
+           transform: scale(1.1);
+    }
+    body{
+        background-color:rgb(1,2,38);
+    }
+    .likho-login {
+        background:transparent;
+        border: 0;
+        width: 200px;
+        height: 25px;
+        border-bottom: 2px solid white;
+        text-align: center;
+        color: white;
+        transition: 0.7s ease;
+      }
+    .likho-login:hover{
+        transform: scale(1.2);
+            
+    }
+    ::placeholder{
+        color: rgb(159,40,41) ;
+    }
+    .Register{
+      background-color: rgb(41,212,182);
+    border: 2px solid rgb(159,40,41);
+    border-radius: 5px;
+    
+    }
+
+    .form-Register{
+        width: 100px;
+        height: 30px;
+        background-color: rgba(41,212,182,0.8);
+        border: 2px solid rgb(184, 112, 114);
+        border-radius: 5px;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 10px;
+       transition: 0.5s;
+       cursor: pointer;
+       visibility: visible;
+       color: black;
+       transition: 0.5s;
+      
+    }
+     
+    .form-Register:hover{
+        background-color: rgb(41,212,182);
+        
+    }
+    .footer-login .form-Register{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .loginh1{
+        margin-top: 20px;
+    }
+   
+   
+  
+
+/*midea---------------------------------------------------start----------------------------------------------------------------------------- quary*/
+
+@media (max-width:715px){
+.logo-image-login{
+    width:200px;
+    margin-top: 0px;
+}
+
+.reg-login{
+    height: 210px;
+}
+  
+}
+
+
+
+
+
+@media (max-width:590px){
+    .all-login{
+        margin-top: 0px;
+    }
+}
+
+    @media (max-width:400px){
+.logo-image-login{width:150px}
+.footer-login{width: 340px;
+margin-top: 20px;}
+.reg-login{height: 150px;}
+ 
+}
+@media (max-width:370px){
+
+.footer-login{width: 310px;}
+
+
+.logo-image-login{width:150px; }
+.form-loginpage{width: 300px;
+}
+.reg-login{height: 165px;}
+ 
+}
+/*midea-------------------------------end------------------------------------------------------------------------------------------------------------- quary*/

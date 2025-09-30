@@ -1,0 +1,268 @@
+* {padding: 0;
+    margin: 0;
+
+  }
+  .nav-boll1{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    margin-left: 20px;
+    width: fit-content;
+    
+   }
+   #navsticky1{
+    position: relative;
+    width: fit-content;
+    
+    margin: 0;
+   }
+
+  .all-upload {
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .footer-upload {
+    justify-content: center;
+    text-align: center;
+    height:fit-content;
+    width: 800px;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(13, 6, 32);
+    border: rgb(159, 40, 41) dashed;
+    border-radius: 20px;
+  }
+  .form-upload1 {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-top: 20px;
+    /* margin: 10px; */
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+ 
+  }
+  .btn-upload {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(159, 40, 41);
+    font-size: 40px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .btn-upload:hover {
+    background-color: rgba(159, 40, 42, 0.75);
+  transform: scale(1.07);
+  }
+  body {
+    background-color: rgb(1, 2, 38);
+  }
+  .likho-upload {
+    background: transparent;
+    border: 0;
+    width: 200px;
+    height: 25px;
+    border-bottom: 2px solid white;
+    text-align: center;
+    color: white;
+    transition: 0.7s ease;
+  }
+  .likho-upload:hover {
+    border-bottom: 2px solid white;
+    transform: scale(1.2);
+  }
+  ::placeholder {
+    color: rgb(159, 40, 41);
+  }
+
+  
+  /* .login {
+    background-color: rgb(41, 212, 182);
+    border: 2px solid rgb(159, 40, 41);
+    border-radius: 5px;
+  }
+   */
+
+  .form-upload {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(41, 212, 181, 0.692);
+    border: 2px solid rgb(159, 40, 41);
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .form-upload:hover{
+    background-color: rgba(41, 212, 181);
+  }
+  .vidup{
+    width: 400px;
+    height: 70px;
+    background-color: transparent;
+    justify-content: center;
+    border: white 1px solid;
+  }
+  #uploadbtn{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+    transition: 0.5s ease;
+  }
+  ::-webkit-file-upload-button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(159, 40, 41);
+    color: white;
+    
+  }
+  .agreeterm{
+    font-size: smaller;
+    text-decoration: none;
+  }
+ #uploadbtn:hover{
+  transform: scale(1.07);
+ }
+ #check{
+  margin-right: 10px;
+ }
+  
+
+  /*midea---------------------------------------------------start----------------------------------------------------------------------------- quary*/
+
+  @media (max-width: 850px) {
+  
+    .footer-upload {
+    width: 700px;
+  }
+  .vidup{
+    width: 600px;
+         }
+        }
+  
+         @media (max-width: 737px) {
+  
+  .footer-upload {
+  width: 600px;
+}
+.vidup{
+  width: 500px;
+       }
+    }
+    @media (max-width: 710px) {
+      .nav-boll1{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-left: 5px;
+        width: fit-content;
+        
+       }
+       #navsticky1{
+        position: relative;
+        width: fit-content;
+        
+        margin-top: 15px;
+       }
+            }
+
+       @media (max-width: 622px) {
+  
+  .footer-upload {
+  width: 500px;
+}
+.vidup{
+  width: 300px;
+  /* background-color: aliceblue; */
+  margin-left: 50px;
+       }
+       .likho-upload:hover {
+    border-bottom: 3px solid rgb(159, 40, 41);
+    width: 170px;
+    border-left: solid 1px rgb(159, 40, 41);
+    border-right: solid 1px rgb(159, 40, 41);
+  }
+      }     
+  @media (max-width: 526px) {
+  
+  .footer-upload {
+  width: 400px;
+}
+#uploadbtn{
+    margin-top: 10px;
+    width: 85px;
+    margin-left: 0px;
+          
+}
+.vidup{
+  width: 300px;
+  /* background-color: aliceblue; */
+  margin-left: 0px;
+       }
+    }
+       @media (max-width: 400px) {
+  
+  .footer-upload {
+  width: 360px;
+}
+#uploadbtn{
+    margin-top: 10px;
+    width: 85px;
+          
+}
+.vidup{
+  width: 260px;
+  /* background-color: aliceblue; */
+  margin-left: 0px;
+       }
+       .agreeterm{
+   font-size: 15px;
+   
+  
+    
+  }
+  #check{
+ margin-right: 10px;
+  }
+
+}
+@media (max-width: 374px) {
+.footer-upload {
+  width: 300px;
+}
+#uploadbtn{
+    margin-top: 10px;
+    width: 85px;
+          
+}
+.vidup{
+  width: 200px;
+  /* background-color: aliceblue; */
+ 
+       }
+       .agreeterm{
+   font-size: 15px;
+  
+    
+  }
+  #check{
+    margin-right: 5px;
+  }
+
+}
