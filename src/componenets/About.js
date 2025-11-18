@@ -29,7 +29,7 @@ export default function About() {
             <div className="upper">
               <div className="picdiv">
                 <img src={man} alt="" className="pic" />
-                <b>Abhey tyagi</b>
+                <b>sourav chouhan</b>
               </div>
               <div className="logolinks">
                 <a href><img src={insta} alt="" className="insta" /></a>
@@ -49,7 +49,7 @@ export default function About() {
             <div className="upper">
               <div className="picdiv">
                 <img src={man} alt="" className="pic" />
-                <b>Abhey tyagi</b>
+                <b>sourav chouhan</b>
               </div>
               <div className="logolinks">
                 <a href><img src={insta} alt="" className="insta" /></a>
@@ -69,7 +69,7 @@ export default function About() {
             <div className="upper">
               <div className="picdiv">
                 <img src={man} alt="" className="pic" />
-                <b>Abhey tyagi</b>
+                <b>sourav chouhan</b>
               </div>
               <div className="logolinks">
                 <a href><img src={insta} alt="" className="insta" /></a>
